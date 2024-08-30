@@ -32,7 +32,7 @@ cn.stop_connection(hard_stop=True)
 
 #Create a Dash application
 app = dash.Dash(__name__)
-
+server - app.server
 
 # List of unique values from a DataFrame
 def get_unique_values(df):
